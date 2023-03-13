@@ -5,7 +5,7 @@ int SummNumbers(int num)
 {
     int summ = 0;
     if(numberA > 0)
-    while (num % 10 > 0)
+    while (num / 10 > 0)
     {
         summ = summ + num % 10;
         num = num / 10;
@@ -13,7 +13,7 @@ int SummNumbers(int num)
    else
 {
     num = num * -1;
-     while (num % 10 > 0)
+     while (num / 10 > 0)
     {
         summ = summ + num % 10;
         num = num / 10; 
